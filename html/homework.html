@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myhome</title>
+
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" autocomplete="off"><br>
+            <label for="lname">Surname:</label><br>
+            <input type="text" id="lname" name="lname" autocomplete="off"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+        </fieldset>
+        <br>
+        <br>
+
+        <p>Choose your gender:</p>
+        <form>
+            <input type="radio" id="men" name="gender">
+            <label for="men">Men</label><br>
+            <input type="radio" id="women" name="gender">
+            <label for="women">Women</label><br>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+
+        </form>
+
+        <button type="button">Click!</button>
+        <br>
+        <br>
+        <br>
+        <p>Favorite programming language:</p>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Python">
+            <label for="vehicle1"> Python</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Javascript">
+            <label for="vehicle2"> Javascript</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="java">
+            <label for="vehicle3"> Java</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="ruby">
+            <label for="vehicle3"> Ruby</label><br>
+            <br>
+
+            <form action="/action_page.php">
+                <textarea name="message" rows="10" cols="30">
+                    1.Python - the core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.
+                    2.Javascript- multi-paradigm programming language. Supports object-oriented, imperative and functional styles.  
+                    3.Java is a widely used programming language for writing Internet applications. The Java language has been widely used for over two decades.    
+                    4.Ruby-dynamic, reflective, interpreted high-level programming language.
+              </textarea>
+                <br><br>
+                <button type="button">Click!</button>
+            </form>
+
+
+            <br>
+            <br>
+            <form action="/action_page.php">
+                <label for="cars">Choose your country:</label>
+                <select id="cars" name="cars">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="turkey">Turkey</option>
+                    <option value="korea">Korea</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Russia">Russia</option>
+
+
+                </select>
+
+            </form>
+            <br>
+            <br>
+            <form action="/action_page.php">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit" value="Click">
+            </form>
+
+
+        </form>
+        <br>
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="myfile">Select a file for profile:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <input type="submit" value="Click">
+        </form>
+        <br>
+        <br>
+        <br>
+        <form action="/action_page.php" method="get">
+            <label for="vol">Choose (between 1 and 10):</label>
+            <input type="range" id="vol" name="vol" min="1" max="10"><br>
+            <input type="submit" value="Click">
+        </form>
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="favcolor">Select your favorite color:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+            <input type="submit" value="Click">
+            <input type="reset" value="Reset">
+        </form>
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="fname">Tracking code:</label>
+            <input type="text" id="fname" name="fname" value="J3948" disabled><br>
+            <input type="hidden" id="custId" name="custId" value="3487" disabled>
+            <input type="submit" value="Click">
+        </form>
+        <br>
+        <br>
+        <p>What is the capital of France?<br>
+
+            <input type="radio" name="berlin" value="maison">A.Berlin<br>
+            <input type="radio" name="egypt" value="quatre">B.Egypt<br>
+            <input type="radio" name="seoul" value="soleil">C.Seoul<br>
+            <input type="radio" name="paris" value="poisson">D.Paris<br>
+
+        </p>
+        <br>
+        <br>
+        <label for="age">Your age:</label><br>
+        <input type="number" id="age" name="age" value="18" size=”3” maxlength="2" min="18" max="99"><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" maxlength="8"><br><br>
+        <input type="submit" value="Click">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

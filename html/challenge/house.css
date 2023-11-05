@@ -1,0 +1,23 @@
+
+/* 1st part */
+body{
+    background-color: rgb(146, 20, 125);
+}
+
+.box{
+position: absolute;
+Background-color:white;
+height: 500px;
+width: 500px;
+
+
+filter: alpha;
+left: 510px;
+bottom: 0;
+top: 7em;
+z-index: 5;
+}
+
+
+
+

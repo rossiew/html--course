@@ -1,0 +1,93 @@
+.first-box {
+    position: relative;
+    background-color: palevioletred;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+}
+
+.second-box {
+    position: absolute;
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 60px;
+    top: 4em;
+    bottom: 0;
+    z-index: 0;
+}
+
+.third-box {
+    position: absolute;
+    Background-color: green;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 120px;
+    top: 7em;
+    bottom: 0;
+    z-index: 1;
+}
+
+.fourth-box {
+    position: absolute;
+    Background-color: purple;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 180px;
+    bottom: 0;
+    top: 10em;
+    z-index: 2;
+}
+
+.fifth-box {
+    position: absolute;
+    Background-color: rgb(22, 81, 228);
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 240px;
+    top: 13em;
+    bottom: 0;
+    z-index: 3;
+}
+
+.sixth-box {
+    position: absolute;
+    Background-color: rgb(220, 18, 18);
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 300px;
+    bottom: 0;
+    top: 16em;
+    z-index: 4;
+
+}
+
+.seventh-box {
+    position: absolute;
+    Background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    opacity: 0.75;
+    filter: alpha;
+    left: 330px;
+    bottom: 0;
+    top: 19em;
+    z-index: 5;
+}
+
