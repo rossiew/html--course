@@ -1,9 +1,14 @@
+.dentcare{
+    width: 150px;
+    height: 20px;
+}
 .first{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
     color: #1E1E1E;
     font-family:serif ;
+    align-items: center;
    
 }
 .second{
@@ -12,7 +17,15 @@
 }
 .red{
     font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
     
+}
+.purple{
+    
+    border-radius: 50%;
+    background-color: aqua;
 }
 .btn{
   position: absolute;
@@ -23,13 +36,19 @@
   height: 75px;
   width: 160px;
 }
-img{
+.look{
     height: 620px;
     width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+
 }
 a{
     text-decoration: none;
     color: black;
+    font-size: 25px;
+    
 }
 .third{
     display: flex;
@@ -41,9 +60,39 @@ height: 80px;
 width: 200px;
 position: absolute;
 top: 400px;
-left: 60px;
+left: 85px;
 }
 .contact{
-    height: 40px;
     width: 120px;
+    height: 50px;
+}
+
+
+
+/* jfhduhrhfejhfjyerhfjyhrhjgf */
+.category-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 93%);
+    border-radius: 10px;
+}
+
+.category-item-title {
+    color: hsl(0, 0%, 13%);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.high{
+    display: flex;
+    justify-content: space-around;
+color: #1E1E1E;
+font-family: serif;
+font-size: 20px;
+border: none;
+ 
 }
