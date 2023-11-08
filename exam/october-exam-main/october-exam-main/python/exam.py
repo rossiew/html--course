@@ -216,7 +216,7 @@ print(programming_languages)
 
 # List Copy:
 # Create a new list languages_copy by copying the elements from the programming_languages list. Modify one element in the original list and ensure that the copy remains unchanged.
-# Creating the programming_languages list
+
 programming_languages = ['Python', 'Java', 'Javascript', 'Ruby']
 languages_copy = programming_languages.copy()
 print("Original list:", programming_languages)
