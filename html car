@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .sky{
+      height: 260px;
+      background-color: rgb(132, 160, 231);
+      color: rgb(132, 160, 231);
+    }
+    .grass{
+      height: 250px;
+      background-color: rgb(100, 160, 70);
+      color: rgb(100, 160, 70);
+    }
+    .road{
+      height: 250px;
+      background-color: rgb(100, 100, 100);
+      color: rgb(100, 100, 100);
+      overflow: hidden;
+    }
+    .lines{
+      box-sizing: border-box;
+      border: 2px dashed #ffffff;
+      height: 0px;
+      width: 100%;
+      position: absolute;
+      top: 95%;
+    }
+    .mario{
+      position: absolute;
+      top: 650px;
+      left: 0;
+      animation-name: drive;
+      animation-duration: 8s ;
+    }
+
+    @keyframes drive{
+      from{transform: translateX(0);}
+      to{transform: translateX(1500px);}
+    }
+  </style>
+</head>
+<body>
+  
+
+<div class="sky">skyyy</div>
+<div class="grass">grass</div>
+<div class="road">road
+  <div class="lines">lines</div>
+  <img class="mario" src="https://static.vecteezy.com/system/resources/previews/001/193/930/non_2x/vintage-car-png.png" width="100px" alt="">
+</div>
+
+</body>
+</html>
